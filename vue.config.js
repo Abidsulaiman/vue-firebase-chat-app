@@ -2,5 +2,7 @@
 
 module.exports = {
   publicPath:
-    process.env.NODE_ENV === "production" ? "/vue-firebase-chat-app/dist" : "/",
+    process.env.NODE_ENV === "production"
+      ? "/vue-firebase-chat-app/dist"
+      : "/vue-firebase-chat-app/dist",
 };

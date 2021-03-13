@@ -1,8 +1,5 @@
 // vue.config.js file to be place in the root of your repository
 
 module.exports = {
-  publicPath:
-    process.env.NODE_ENV === "production"
-      ? "/vue-firebase-chat-app/dist"
-      : "/vue-firebase-chat-app/dist",
+  publicPath: process.env.NODE_ENV === "production" ? "/dist/" : "/",
 };
